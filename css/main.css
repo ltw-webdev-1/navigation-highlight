@@ -1,0 +1,71 @@
+html {
+  font: "Georgia", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #b20953;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Sigmar One", cursize;
+  font-size: 3em;
+  margin: 0;
+  padding-bottom: 0.25em;
+}
+
+h2 {
+  color: #b20953;
+  text-transform: capitalize;
+  font-size: 2em;
+  font-family: "Sigmar One", cursive;
+  margin: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav .current {
+  background-color: #ffe500;
+}
+
+nav a {
+  padding: .3e, .5em;
+  background-color: #b20953;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3.5px;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #b22212;
+}
+
+main {
+  margin: 0.5em;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-size: 0.75em;
+}
+
+footer {
+  background-color: #ffe500;
+  text-align: center;
+  padding: 1em;
+}
